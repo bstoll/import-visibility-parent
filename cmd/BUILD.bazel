@@ -5,6 +5,7 @@ go_library(
     srcs = ["main.go"],
     importpath = "github.com/bstoll/import-visibility-parent/cmd",
     visibility = ["//visibility:private"],
+    deps = ["@com_github_bstoll_import_visibility_child//:import-visibility-child"],
 )
 
 go_binary(

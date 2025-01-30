@@ -3,5 +3,5 @@ package library
 import "fmt"
 
 func Parent() {
-	fmt.Println("Hello from parent v1")
+	fmt.Println("Hello from parent v2")
 }
